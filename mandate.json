@@ -1,0 +1,19 @@
+{
+  "mandateId": "MDT-2026-001",
+  "description": "Research agent may buy premium data from approved sellers, testnet only.",
+  "approvedBy": "Finance approver (demo)",
+  "approvedOn": "2026-10-22",
+  "agent": "0xd013D856EA99489484B70000cF12038DbAE7e677",
+  "network": "eip155:84532",
+  "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+  "currency": "USDC",
+  "maxPerPayment": "0.01",
+  "dailyBudget": "0.05",
+  "allowedSellers": [
+    {
+      "name": "Premium Facts API",
+      "payTo": "0xc7e03aE18ecCcbb10cf2aFbc7f188e3BBcc4089d"
+    }
+  ],
+  "expiresAt": "2026-11-30T23:59:59+11:00"
+}
